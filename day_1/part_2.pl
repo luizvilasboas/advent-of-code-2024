@@ -22,7 +22,7 @@ while ( my $line = <$fh> ) {
 
 close $fh;
 
-my $count = 0;
+my $count  = 0;
 my $result = 0;
 
 foreach my $value (@left_list) {
